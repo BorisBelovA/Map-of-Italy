@@ -1,3 +1,3 @@
 # Map-of-Italy
-Simple interactive map of Italy
-Моя первый опыт работы с svg, не судите строго
+Simple interactive map of Italy<br>
+Мой первый опыт работы с svg, не судите строго
