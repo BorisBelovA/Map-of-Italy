@@ -1,0 +1,50 @@
+body{
+	display: flex;
+	flex=direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+#map{
+	width:600px;
+}
+#areas{
+	font-size: 11pt;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 2px;
+	background: #ECE9E0;
+	color: #656665;
+	border: 5px solid #ECE9E0;
+	border-radius: 20px;
+}
+th{
+	font-size: 18px;
+	padding: 4px;
+}
+td{
+	background: #F5D7BF;
+	padding: 3px;
+}
+.highlited,g path:hover, path:hover{
+	fill:rgb(216,221,93)!important;
+	stroke: white!important;
+	stroke-width:2!important; 
+}
+.area{
+	fill:rgb(122,179,214);
+	stroke: white;
+	stroke-width:2; 
+}
+g path:hover, path:hover{
+	cursor: help;
+}
+.info_pannel{
+	background-color: rgba(255,255,255, .7);
+	padding: .3em;
+	font-size: .8em;
+	font-family: Helvetica, Arial, sans-serif;
+	position: absolute;
+	border:1px solid black;
+	border-radius: 5px;
+}
